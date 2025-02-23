@@ -16,9 +16,9 @@ fn main() {
 
     let g = construct_char("a".to_string());
     // println!("{:?}", Dot::new(&g.graph));
-    g.to_file( "graphs/a.dot").unwrap();
+    g.to_file("graphs/a.dot").unwrap();
     println!("{:?}", get_graph6_representation(&g.graph));
-    
+
     // let g = construct_and(&'a', &'b');
     // // println!("{:?}", Dot::new(&g.graph));
     // g.to_file("graphs/a_and_b.dot").unwrap();
@@ -29,5 +29,3 @@ fn main() {
     // g.to_file("graphs/a_or_b.dot").unwrap();
     // println!("{:?}", get_graph6_representation(&g.graph));
 }
-
-

@@ -98,7 +98,7 @@ impl Expr {
         trim_str(&format!("{}", self)).to_string()
     }
 
-    pub fn walk<F, T, R>(&self, action: &mut F, state:&T)
+    pub fn walk<F, T, R>(&self, action: &mut F, state: &T)
     where
         F: FnMut(&T) -> R,
     {
@@ -115,7 +115,7 @@ impl Expr {
             }
             Expr::UnaryOp { operand, op } => {
                 println!("{}{}", op, operand);
-                operand.walk(action, &state );
+                operand.walk(action, &state);
             }
         }
     }

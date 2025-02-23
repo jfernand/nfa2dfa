@@ -6,6 +6,6 @@ edition = "2024"
 [dependencies]
 colored = "3.0.0"
 log = "0.4.26"
+petgraph = "0.7.1"
 tracing = "0.1.41"
 tracing-subscriber = "0.3.19"
-petgraph = "0.7.1"
