@@ -1,0 +1,10 @@
+digraph {
+    0 [ label = "S" ]
+    1 [ label = "E" ]
+    2 [ label = "a" ]
+    3 [ label = "b" ]
+    0 -> 2 [ label = "a" ]
+    0 -> 3 [ label = "b" ]
+    2 -> 1 [ label = "ε" ]
+    3 -> 1 [ label = "ε" ]
+}

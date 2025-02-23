@@ -1,0 +1,7 @@
+digraph {
+    0 [ label = "S" ]
+    1 [ label = "E" ]
+    2 [ label = "m" ]
+    0 -> 2 [ label = "a" ]
+    2 -> 1 [ label = "b" ]
+}
